@@ -1,38 +1,29 @@
-# React Project for the React Course
+# Metar And Weather
 
-## Available Scripts
+Hello, I'm [Souldrum](https://github.com/souldrum) and this is my little Metar And Weather app. **METAR** is an aviation meteorological code for transmitting actual weather reports at an aerodrome, which you can get if you enter the ICAO code of your airport in the appropriate field. This application is not a product for mass use, but you can try how it works. This is my draft for practicing getting data from an external API (thanks to [CheckWX API](https://www.checkwxapi.com/) for providing the data). In addition to getting the METAR data, in the field below I have decoded some of the data, which allows you to use this application as a small weather resource. I think that fans of flight simulators and other people close to aviation will be able to figure out the interface without a manual, but if you are not familiar with such words as **METAR** and **ICAO**, then I will tell you what to do with it.
 
-In the project directory, you can run:
+-   Enter the ICAO code of your airport in the field
 
-### `npm start`
+![elevation](src/readme_img/inputIcao.jpg)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+-   If you do not know what an icao code is and what the icao code of the airport you need is, then hover over the icon to the right of the input field and follow the link in the tooltip.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![elevation](src/readme_img/tooltip.jpg)
 
-### `npm test`
+-   On the [page](https://airportsbase.org/ICAO.php) that opens, find the country you need.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![elevation](src/readme_img/icaoPage.jpg)
 
-### `npm run build`
+-   Then the city in which the airport you need is located.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![elevation](src/readme_img/icaoPageCity.jpg)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+-   After that, you will see all possible airports in the selected city and a table with the column we need.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![elevation](src/readme_img/LFPG.jpg)
 
-### `npm run eject`
+-   For example, we are interested in the weather around Charles de Gaulle Airport in Paris. We enter its code in the input field, press the ENTER key and we get the METAR summary (top field) and the decoding of some METAR summary data (field below).
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![elevation](src/readme_img/data.jpg)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### I hope this guide was helpful! I wish you all great weather!
