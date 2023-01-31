@@ -1,0 +1,103 @@
+
+.metarFormContainer label {
+    display: flex;
+    color: #fff;
+    cursor: pointer;
+}
+  
+.metarFormContainer form {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    font-size: 20px;
+}
+
+.inputWrapper {
+    display: flex;
+}
+  
+.metarFormContainer input {
+    background-color: #4b6166b3;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    color: #fff;
+    padding-left: 7px;
+    margin-left: 10px;
+    height: 30px;
+    width: 100px;
+    font-size: 20px;
+}
+  
+.metarFormContainer input:focus {
+    outline: none;
+    border: 2px solid #00e9fa;
+    border-radius: 5px;
+}
+
+.metarFormContainer i {
+    color: white;
+    margin-left: 5px;
+    cursor: pointer;   
+    position: relative;
+    display: inline-block;
+    text-align: center; 
+}
+
+.tooltipText {
+    visibility: hidden;
+    width: 120px;
+    background-color: #4b616680;
+    color: #fff;
+    text-align: center;
+    font-style: normal;
+    font-size: 16px;
+    padding: 5px;
+    border-radius: 5px;
+    position: absolute;
+    z-index: 1;
+    left: 115%;
+}
+
+.tooltipText a {
+    text-decoration: none;
+    color: white;
+    font-style: italic;
+    color: #00e9fa;
+}
+
+.tooltipText a:hover {
+    text-decoration: underline;
+}
+
+.tooltipText::after {
+    /* content: ""; */
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    margin-top: -5px;
+    border: 5px #4b616680 solid;
+
+    /* border-width: 5px;
+    border-style: solid;
+    border-color: transparent white transparent transparent; */
+}
+
+.tooltip:hover .tooltipText {
+    visibility: visible;
+}
+
+@media (max-width: 575px) {
+    .metarFormContainer label {
+        flex-direction: column;
+        align-items: center;
+        font-size: 1.2em;
+    }
+    .inputWrapper {
+        margin-top: 5px;
+    }
+    .tooltipText {
+        top: 115%;
+        left: 50%;
+        margin-left: -60px;
+    }
+}

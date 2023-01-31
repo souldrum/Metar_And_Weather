@@ -1,0 +1,67 @@
+
+@keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+.dataField {
+    margin: 0 auto;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    text-align: center;
+    color: #fff;
+    background-color: #4b6166b3;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    width: 40%;
+    animation: fadeIn .5s;
+  }
+
+  .dataField p {
+    font-size: 1.2rem;
+    font-weight: bolder;
+  }
+
+  .header {
+    text-decoration: underline;
+    margin-bottom: 10px;
+  }
+
+  @media (max-width: 1440px) {
+  .dataField {
+    width: 60%;
+  }
+  .dataField p {
+      font-size: 1.1rem;
+      font-weight: normal;
+    }
+}
+
+  @media (max-width: 768px) {
+    .dataField {
+      margin: 15px;
+      padding-bottom: 0;
+      padding: 5px;
+      width:auto; 
+    }
+  }
+
+  @media (max-width: 575px) {
+    .dataField p {
+      font-size: 1rem;
+    }
+    .header {
+      font-size: 1rem;
+      margin-bottom: 5px
+    }
+  }
+  
+  @media (max-width: 320px) {
+    .dataField p {
+      font-size: 0.8rem;
+    }
+    .header {
+      font-size: 0.8rem;
+      margin-bottom: 5px
+    }
+  }

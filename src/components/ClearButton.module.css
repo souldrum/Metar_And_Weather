@@ -1,0 +1,17 @@
+.clearButton {
+    text-align: center;
+    font-weight: bold;
+    font-size: medium; 
+    margin: 0 auto;
+    height: 30px;
+    width: 120px;
+    cursor: pointer;
+    border: 2px solid #40b3b3;
+    border-radius: 5px;  
+  }
+  
+  .clearButtonWrap {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+  }

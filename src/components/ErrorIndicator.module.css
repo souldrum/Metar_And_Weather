@@ -1,0 +1,54 @@
+.errorIcao {
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+    color: #fdb719;
+    background-color: #4b616680;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    width: max-content;
+  }
+
+.error404 {
+    margin: 0 auto;
+    text-align: center;
+    padding: 15px;
+    color: red;
+    background-color: #fff;
+    border: 5px solid red;
+    border-radius: 5px;
+    width: min-content;
+  }
+
+.errorIcao a {
+    text-decoration: none;
+    color: #fff;
+    /* font-style: italic; */
+}
+
+.errorIcao a:hover {
+    text-decoration: underline;
+  }
+
+.oops {
+  height: 100px;
+  width: 100px;
+}
+
+@media (max-width: 575px) {
+  .errorIcao {
+    margin: 10px;
+    width: auto;
+  }
+  .error404 {
+    margin: 10px;
+    width: auto;
+    font-size: 0.5em;
+  }   
+}
+
+@media (max-width: 340px) {
+  .error404 {
+    font-size: 0.3em;
+  }
+}
