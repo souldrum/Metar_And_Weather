@@ -10,7 +10,9 @@
         "Metar",
         "oger",
         "souldrum",
-        "wwpo"
+        "wwpo",
+        "икао",
+        "метар"
     ],
     "cSpell.language": "en,ru"
 }
