@@ -22,7 +22,7 @@ const rightCol = (
         />
         <FooterItem
             title="Manual on github:"
-            href="https://github.com/souldrum/QnhToQfe_React#readme"
+            href="https://github.com/souldrum/Metar_And_Weather#readme"
             alt="github"
             srcImg="https://img.icons8.com/color/48/000000/github--v1.png"
         />
