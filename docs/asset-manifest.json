@@ -8,7 +8,7 @@
     "static/media/winter_3.jpg": "/static/media/winter_3.0fcccbdfcf1b7cddcc44.jpg",
     "static/media/bootstrap-icons.woff?": "/static/media/bootstrap-icons.6959d0d983ee318f8880.woff",
     "static/media/bootstrap-icons.woff2?": "/static/media/bootstrap-icons.b2e5aab643c6f0fd2da6.woff2",
-    "static/media/oops.png": "/static/media/oops.aaa6b165c1e111012df7.png",
+    "static/media/oops.png": "static/media/oops.aaa6b165c1e111012df7.png",
     "index.html": "/index.html",
     "main.10dcce2d.css.map": "/static/css/main.10dcce2d.css.map",
     "main.536fd4e8.js.map": "/static/js/main.536fd4e8.js.map"
