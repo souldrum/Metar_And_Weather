@@ -11638,7 +11638,7 @@
                     error404: "ErrorIndicator_error404__298Q1",
                     oops: "ErrorIndicator_oops__nmXMK",
                 },
-                D = n.p + "../media/oops.aaa6b165c1e111012df7.png",
+                D = n.p + "static/media/oops.aaa6b165c1e111012df7.png",
                 F = function () {
                     return (0, g.jsxs)("div", {
                         className: A.errorIcao,
