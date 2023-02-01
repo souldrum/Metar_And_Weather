@@ -1,7 +1,9 @@
 module.exports = {
-    configure: {
-        output: {
-            publicPath: "/Metar_And_Weather/",
+    webpack: {
+        configure: {
+            output: {
+                publicPath: "",
+            },
         },
     },
 };
