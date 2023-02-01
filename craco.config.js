@@ -1,7 +1,7 @@
 module.exports = {
     configure: {
         output: {
-            publicPath: "",
+            publicPath: "/Metar_And_Weather/",
         },
     },
 };
