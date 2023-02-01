@@ -9,9 +9,6 @@ const BackgroundWrapper = (props) => {
     const [winter, setWinter] = useState(0);
 
     useEffect(() => {
-        let image = new Image();
-        image.src = winterArr[winter];
-
         setTimeout(
             () =>
                 winter === winterArr.length - 1
