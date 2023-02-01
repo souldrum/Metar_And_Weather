@@ -189,8 +189,8 @@
     margin: 0 auto;
     padding: 15px;
     text-align: center;
-    width: -webkit-min-content;
-    width: min-content;
+    width: 50%;
+    word-break: break-all;
 }
 .ErrorIndicator_errorIcao__BLh\+f a {
     color: #fff;
@@ -203,20 +203,27 @@
     height: 100px;
     width: 100px;
 }
-@media (max-width: 575px) {
-    .ErrorIndicator_errorIcao__BLh\+f {
-        margin: 10px;
-        width: auto;
-    }
+@media (max-width: 1024px) {
     .ErrorIndicator_error404__298Q1 {
-        font-size: 0.5em;
-        margin: 10px;
+        margin: 15px;
         width: auto;
     }
 }
-@media (max-width: 340px) {
+@media (max-width: 580px) {
+    .ErrorIndicator_errorIcao__BLh\+f {
+        margin: 15px;
+        width: auto;
+    }
+}
+@media (max-width: 540px) {
     .ErrorIndicator_error404__298Q1 {
-        font-size: 0.3em;
+        font-size: 0.7em;
+    }
+}
+@media (max-width: 320px) {
+    .ErrorIndicator_error404__298Q1 {
+        font-size: 0.5em;
+        margin: 10px;
     }
 }
 @-webkit-keyframes ldio-mt8572ax2ml {
@@ -6468,4 +6475,4 @@ body {
     font-family: Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans,
         Droid Sans, Helvetica Neue, sans-serif;
 }
-/*# sourceMappingURL=main.10dcce2d.css.map*/
+/*# sourceMappingURL=main.1539cdab.css.map*/

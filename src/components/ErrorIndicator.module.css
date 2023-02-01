@@ -7,7 +7,7 @@
     border: 2px solid #fff;
     border-radius: 5px;
     width: max-content;
-  }
+}
 
 .error404 {
     margin: 0 auto;
@@ -17,8 +17,9 @@
     background-color: #fff;
     border: 5px solid red;
     border-radius: 5px;
-    width: min-content;
-  }
+    word-break: break-all;
+    width: 50%;
+}
 
 .errorIcao a {
     text-decoration: none;
@@ -28,27 +29,36 @@
 
 .errorIcao a:hover {
     text-decoration: underline;
-  }
+}
 
 .oops {
-  height: 100px;
-  width: 100px;
+    height: 100px;
+    width: 100px;
 }
 
-@media (max-width: 575px) {
-  .errorIcao {
-    margin: 10px;
-    width: auto;
-  }
-  .error404 {
-    margin: 10px;
-    width: auto;
-    font-size: 0.5em;
-  }   
+@media (max-width: 1024px) {
+    .error404 {
+        margin: 15px;
+        width: auto;
+    }
 }
 
-@media (max-width: 340px) {
-  .error404 {
-    font-size: 0.3em;
-  }
+@media (max-width: 580px) {
+    .errorIcao {
+        margin: 15px;
+        width: auto;
+    }
+}
+
+@media (max-width: 540px) {
+    .error404 {
+        font-size: 0.7em;
+    }
+}
+
+@media (max-width: 320px) {
+    .error404 {
+        margin: 10px;
+        font-size: 0.5em;
+    }
 }
