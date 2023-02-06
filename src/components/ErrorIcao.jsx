@@ -6,7 +6,7 @@ const ErrorIcao = () => {
         <div className={styles.errorIcao}>
             <img className={styles.oops} src={oops} alt="Oops!" />
             <h2>
-                check that the{" "}
+                There is no METAR information for this request. Check that the{" "}
                 <a href="https://airportsbase.org/ICAO.php" target="blank">
                     ICAO
                 </a>{" "}

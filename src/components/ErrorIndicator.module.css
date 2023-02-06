@@ -6,7 +6,7 @@
     background-color: #4b616680;
     border: 2px solid #fff;
     border-radius: 5px;
-    width: max-content;
+    width: 50%;
 }
 
 .error404 {
@@ -43,7 +43,7 @@
     }
 }
 
-@media (max-width: 580px) {
+@media (max-width: 768px) {
     .errorIcao {
         margin: 15px;
         width: auto;

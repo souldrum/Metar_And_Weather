@@ -19,16 +19,16 @@ export default class MetarService {
         const data = res.data[0];
 
         const metar = data.raw_text;
-        const airportName = data.station.name;
-        const location = data.station.location;
+        const airportName = data.station?.name;
+        const location = data.station?.location;
         const infoTime = data.observed;
-        const temp = data.temperature.celsius;
-        const dewPoint = data.dewpoint.celsius;
-        const windDirection = data.wind.degrees;
-        const windSpeedMps = data.wind.speed_mps;
-        const windSpeedKts = data.wind.speed_kts;
-        const barometerHPa = data.barometer.hpa;
-        const barometerHg = data.barometer.hg;
+        const temp = data.temperature?.celsius;
+        const dewPoint = data.dewpoint?.celsius;
+        const windDirection = data.wind?.degrees;
+        const windSpeedMps = data.wind?.speed_mps;
+        const windSpeedKts = data.wind?.speed_kts;
+        const barometerHPa = data.barometer?.hpa;
+        const barometerHg = data.barometer?.hg;
 
         return {
             metar,
@@ -101,21 +101,12 @@ export default class MetarService {
     };
 
     _windDataModified = (direction, mps, kt) => {
-        if (
-            !direction &&
-            !(mps || kt) &&
-            direction.toString() !== "000" &&
-            (mps || kt).toString() !== "00"
-        ) {
-            return "Wind: ____";
-        }
-
-        if (direction === 0 && (mps || kt).toString() !== "00") {
-            return `Wind variable, ${mps} mps (${kt} kt) `;
-        }
-
-        if ((mps || kt).toString() === "00") {
+        if (!direction && !(mps || kt)) {
             return "Wind: Calm";
+        }
+
+        if (!direction && (mps || kt).toString() !== "00") {
+            return `Wind variable, ${mps} mps (${kt} kt) `;
         }
 
         const stringWindData = `Wind: ${direction} degrees, ${mps} mps (${kt} kt)`;
