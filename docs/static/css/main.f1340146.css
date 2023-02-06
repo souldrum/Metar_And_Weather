@@ -178,8 +178,7 @@
     margin: 0 auto;
     padding: 10px;
     text-align: center;
-    width: -webkit-max-content;
-    width: max-content;
+    width: 50%;
 }
 .ErrorIndicator_error404__298Q1 {
     background-color: #fff;
@@ -209,7 +208,7 @@
         width: auto;
     }
 }
-@media (max-width: 580px) {
+@media (max-width: 768px) {
     .ErrorIndicator_errorIcao__BLh\+f {
         margin: 15px;
         width: auto;
@@ -6475,4 +6474,4 @@ body {
     font-family: Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans,
         Droid Sans, Helvetica Neue, sans-serif;
 }
-/*# sourceMappingURL=main.f2e16a73.css.map*/
+/*# sourceMappingURL=main.f1340146.css.map*/
