@@ -3,10 +3,19 @@ import { useState } from "react";
 import styles from "./BackgroundWrapper.module.css";
 
 const { winter1, winter2, winter3, winter4 } = styles;
+
 const winterArr = [winter1, winter2, winter3, winter4];
 
 const BackgroundWrapper = (props) => {
     const [winter, setWinter] = useState(0);
+
+    useEffect(() => {
+        //preloading image
+        winterArr.forEach((winterItem) => {
+            const img = new Image();
+            img.src = winterItem;
+        });
+    }, [winter]);
 
     useEffect(() => {
         setTimeout(
