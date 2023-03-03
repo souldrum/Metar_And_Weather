@@ -25,7 +25,7 @@ const BackgroundWrapper = (props) => {
                     : setWinter((prev) => prev + 1),
             10000
         );
-    }, [winter]);
+    });
 
     return <div className={winterArr[winter]}>{props.children}</div>;
 };
