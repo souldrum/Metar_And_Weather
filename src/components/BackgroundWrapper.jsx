@@ -10,14 +10,6 @@ const BackgroundWrapper = (props) => {
     const [winter, setWinter] = useState(0);
 
     useEffect(() => {
-        //preloading image
-        winterArr.forEach((winterItem) => {
-            const img = new Image();
-            img.src = winterItem;
-        });
-    }, [winter]);
-
-    useEffect(() => {
         setTimeout(
             () =>
                 winter === winterArr.length - 1
@@ -25,7 +17,7 @@ const BackgroundWrapper = (props) => {
                     : setWinter((prev) => prev + 1),
             10000
         );
-    }, [winter]);
+    });
 
     return <div className={winterArr[winter]}>{props.children}</div>;
 };
