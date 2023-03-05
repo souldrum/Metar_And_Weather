@@ -34,14 +34,10 @@ if (months === (2 || 3 || 4)) season = spring;
 if (months === (5 || 6 || 7)) season = summer;
 if (months === (8 || 9 || 10)) season = autumn;
 
-console.log(season);
+console.dir(season[0]);
 
 const BackgroundWrapper = (props) => {
     const [imgIndex, setImgIndex] = useState(0);
-
-    season.forEach((img) => {
-        img = new Image();
-    });
 
     useEffect(() => {
         setTimeout(
