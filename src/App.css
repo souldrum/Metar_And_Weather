@@ -3,14 +3,12 @@
 }
 
 .loading {
-  margin: 0 auto;
-  margin-bottom: 10px;
-  text-align: center;
-  padding: 10px;
-  color: #125353;
-  background-color: lightblue;
-  width: 50%;
-  border: none;
-  background:none 
+    margin: 0 auto;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 10px;
+    color: #125353;
+    width: 50%;
+    border: none;
+    background: none;
 }
-

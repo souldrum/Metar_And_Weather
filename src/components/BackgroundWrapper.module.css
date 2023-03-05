@@ -1,28 +1,87 @@
 .winter1,
 .winter2,
 .winter3,
-.winter4 {
+.winter4,
+.spring1,
+.spring2,
+.spring3,
+.spring4,
+.summer1,
+.summer2,
+.summer3,
+.summer4,
+.autumn1,
+.autumn2,
+.autumn3,
+.autumn4 {
     min-height: 100%;
     min-width: 100%;
     position: absolute;
-    -webkit-transition: background-image 4s ease-in-out;
     transition: background-image 4s ease-in-out;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .winter1 {
-    background-image: url(../season_img/winter_1.jpeg);
+    background-image: url(../season_img/winter/winter_1.jpeg);
 }
 
 .winter2 {
-    background-image: url(../season_img/winter_2.jpg);
+    background-image: url(../season_img/winter/winter_2.jpg);
 }
 
 .winter3 {
-    background-image: url(../season_img/winter_3.jpg);
+    background-image: url(../season_img/winter/winter_3.jpg);
 }
 
 .winter4 {
-    background-image: url(../season_img/winter_4.jpg);
+    background-image: url(../season_img/winter/winter_4.jpg);
+}
+
+.spring1 {
+    background-image: url(../season_img/spring/spring_1.jpg);
+}
+
+.spring2 {
+    background-image: url(../season_img/spring/spring_2.jpg);
+}
+
+.spring3 {
+    background-image: url(../season_img/spring/spring_3.jpg);
+}
+
+.spring4 {
+    background-image: url(../season_img/spring/spring_4.jpg);
+}
+
+.summer1 {
+    background-image: url(../season_img/summer/summer_1.jpg);
+}
+
+.summer2 {
+    background-image: url(../season_img/summer/summer_2.jpg);
+}
+
+.summer3 {
+    background-image: url(../season_img/summer/summer_3.jpg);
+}
+
+.summer4 {
+    background-image: url(../season_img/summer/summer_4.jpg);
+}
+
+.autumn1 {
+    background-image: url(../season_img/autumn/autumn_1.jpg);
+}
+
+.autumn2 {
+    background-image: url(../season_img/autumn/autumn_2.jpeg);
+}
+
+.autumn3 {
+    background-image: url(../season_img/autumn/autumn_3.jpg);
+}
+
+.autumn4 {
+    background-image: url(../season_img/autumn/autumn_4.jpeg);
 }

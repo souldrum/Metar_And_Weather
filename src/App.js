@@ -22,8 +22,8 @@ function App() {
                 <InputIcao tooltip={renderTooltip} />
                 <ClearButton />
                 <InfoBlock />
+                <Footer />
             </MetarProvider>
-            <Footer />
         </BackgroundWrapper>
     );
 }
