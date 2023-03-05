@@ -383,7 +383,6 @@
     text-align: center;
 }
 .loading {
-    background-color: #add8e6;
     background: none;
     border: none;
     color: #125353;
@@ -391,6 +390,18 @@
     padding: 10px;
     width: 50%;
 }
+.BackgroundWrapper_autumn1__7dDbd,
+.BackgroundWrapper_autumn2__jvP4O,
+.BackgroundWrapper_autumn3__p-egq,
+.BackgroundWrapper_autumn4__M8Frz,
+.BackgroundWrapper_spring1__g1J0h,
+.BackgroundWrapper_spring2__EqtwN,
+.BackgroundWrapper_spring3__YsOl0,
+.BackgroundWrapper_spring4__Ni55t,
+.BackgroundWrapper_summer1__aYNmA,
+.BackgroundWrapper_summer2__6t5oi,
+.BackgroundWrapper_summer3__cx4jR,
+.BackgroundWrapper_summer4__7HayG,
 .BackgroundWrapper_winter1__YafLT,
 .BackgroundWrapper_winter2__h\+MzQ,
 .BackgroundWrapper_winter3__o5wE8,
@@ -413,6 +424,42 @@
 }
 .BackgroundWrapper_winter4__8lbmw {
     background-image: url(../media/winter_4.73a5c5b25569aed0a374.jpg);
+}
+.BackgroundWrapper_spring1__g1J0h {
+    background-image: url(../media/spring_1.a62fd849cb5c5ca042e8.jpg);
+}
+.BackgroundWrapper_spring2__EqtwN {
+    background-image: url(../media/spring_2.f69443e77ba84ab426c0.jpg);
+}
+.BackgroundWrapper_spring3__YsOl0 {
+    background-image: url(../media/spring_3.27faa73f295f64f1b066.jpg);
+}
+.BackgroundWrapper_spring4__Ni55t {
+    background-image: url(../media/spring_4.09be84fa1cedb33763ba.jpg);
+}
+.BackgroundWrapper_summer1__aYNmA {
+    background-image: url(../media/summer_1.9e3e42a9d65be82faf9e.jpg);
+}
+.BackgroundWrapper_summer2__6t5oi {
+    background-image: url(../media/summer_2.3d110c879cae3e6bb45e.jpg);
+}
+.BackgroundWrapper_summer3__cx4jR {
+    background-image: url(../media/summer_3.58e17fd56ef00e9d0f3c.jpg);
+}
+.BackgroundWrapper_summer4__7HayG {
+    background-image: url(../media/summer_4.7df0e43481d28426273d.jpg);
+}
+.BackgroundWrapper_autumn1__7dDbd {
+    background-image: url(../media/autumn_1.4b3cc3d4be47782ceb3b.jpg);
+}
+.BackgroundWrapper_autumn2__jvP4O {
+    background-image: url(../media/autumn_2.44de83858d69e2c2ed2f.jpeg);
+}
+.BackgroundWrapper_autumn3__p-egq {
+    background-image: url(../media/autumn_3.e46f79821622e1b0aced.jpg);
+}
+.BackgroundWrapper_autumn4__M8Frz {
+    background-image: url(../media/autumn_4.3644af2d74e9c5bc4b26.jpeg);
 }
 .Footer_footer__aDDTc {
     background-color: #075d86c4;
@@ -6474,4 +6521,4 @@ body {
     font-family: Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans,
         Droid Sans, Helvetica Neue, sans-serif;
 }
-/*# sourceMappingURL=main.f1340146.css.map*/
+/*# sourceMappingURL=main.67e42867.css.map*/
